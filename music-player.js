@@ -5,27 +5,17 @@ class MusicPlayer {
       {
         title: 'fluxxwave (slowed + reverb)',
         artist: 'clovis reyes',
-        url: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav' // Replace with actual song URL
+        url: './Song1.mp3' // Replace with actual song URL
       },
       {
         title: 'Mice On Venus but make it *E X T R A* nostalgic',
         artist: 'C418 (Remix)',
-        url: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav' // Replace with actual song URL
+        url: './Song2.mp3' // Replace with actual song URL
       },
       {
         title: 'Resonance',
         artist: 'HOME',
-        url: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav' // Replace with actual song URL
-      },
-      {
-        title: 'Aruarian Dance',
-        artist: 'Nujabes',
-        url: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav' // Replace with actual song URL
-      },
-      {
-        title: 'Sweden',
-        artist: 'C418',
-        url: 'https://www.soundjay.com/misc/sounds/bell-ringing-05.wav' // Replace with actual song URL
+        url: './Song3.mp3' // Replace with actual song URL
       }
     ];
     
