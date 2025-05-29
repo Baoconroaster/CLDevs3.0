@@ -1,3 +1,4 @@
+
 /* Base Styles */
 :root {
   --background: rgb(7, 7, 7);
@@ -401,6 +402,114 @@ ul {
   .support-image {
     flex: 1;
     max-width: 400px;
+  }
+}
+
+/* Credits Section */
+.credits {
+  padding: 5rem 1rem;
+  background-color: rgba(15, 15, 15, 0.8);
+}
+
+.credits-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.credits h2 {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.credits p {
+  color: var(--muted-foreground);
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.team-credits {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+.team-member {
+  background: linear-gradient(145deg, rgba(25, 25, 25, 0.8), rgba(38, 38, 38, 0.6));
+  border: 1px solid rgba(223, 43, 43, 0.2);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  border-color: rgba(223, 43, 43, 0.4);
+  box-shadow: 0 15px 30px rgba(223, 43, 43, 0.1);
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.credits-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.credit-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.credit-image:hover {
+  transform: scale(1.05);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(223, 43, 43, 0.2);
+}
+
+.project-love {
+  margin-top: 2rem;
+}
+
+.project-love p {
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .team-credits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .credits-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
